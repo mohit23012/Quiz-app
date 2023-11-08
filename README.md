@@ -1,0 +1,1 @@
+QuizApp: A dynamic and interactive quiz application powered by JavaScript, HTML, and CSS. Test your knowledge, create custom quizzes, and challenge your friends. Perfect for learning, entertainment, and honing your problem-solving skills. Get started with QuizApp
