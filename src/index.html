@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body class="min-h-screen bg-slate-300 flex justify-center items-center">
+    <!-- box -->
+    <div class="box bg-white w-full sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/3 p-3">
+        <!-- heading -->
+        <h1 class="heading font-bold my-3 text-center">This is the dummy Question</h1>
+        <!-- options -->
+        <div class="options m-6 flex flex-col gap-3">
+            <div>
+                <input class="option" id="Option1" name="Option"  value="a" type="radio">
+                <label class="font-semibold " for="Option1">Option 1</label>
+            </div>
+            <div>
+                <input class="option" id="Option 2" name="Option" value="b"  type="radio">
+                <label class="font-semibold " for="Option 2">Option 2</label>
+            </div>
+            <div>
+                <input class="option" id="Option 3" name="Option" value="c" type="radio">
+                <label class="font-semibold " for="Option 3">Option 3</label>
+            </div>
+            <div>
+                <input class="option" id="Option 4" name="Option" value="d" type="radio">
+                <label class="font-semibold " for="Option 4">Option 4</label>
+            </div>
+        </div>
+        <div class="button flex justify-end m-7 ">
+            <button class="bg-blue-700 text-white px-3 py-1">Submit</button>
+        </div>
+    </div>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
